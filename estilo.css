@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+.caixa{ /*Caixa marrom com degradê para cabeçalho*/
+    width:100%; /*Definindo a largura da caixa marrom com degradê do cabeçalho*/
+    background: linear-gradient(to right, #8B4513 , #1F1D1C); /*Definindo as cores da caixa marrom com degradê para cabeçalho*/
+}
+
+.logo{ /* Estilização da logo do café com largura e altura de 150px, posição relativa e espaçamento superior da margem de 10px */
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.NomeCafeteria{ /* Nome da cafeteria com espaçamento de margem */
+                margin: 0% 19% 0% 19%;
+}
+
+#barrabuscar{ /* Estilização da barra de busca com espaçamento interno de 3px, cor #FFFFFF, arredondamento de 4px, sem borda e margem a esquerda de 43% */
+            padding: 3px;
+            background-color: #FFFFFF;
+            border-radius: 4px;
+            border: none;
+            margin-left: 43%;
+
+}
+
+#botaobuscar{ /* Botão de busca com largura e altura de 30px, cor de fundo transparente e sem borda */
+            width: 30px;
+            height:30px;
+            background-color: transparent;
+            border: none;
+}
+
+#lupa{ /* Estilização da lupa com tamanho e largura de 15px */
+     height: 15px;
+     width: 15px;
+}
+
+.divisoria{ /* Divisória decorativa de página com espaçamento de margem de 31.8% e afastamento de 1% da margem superior */
+            margin-left: 31.8%;
+            margin-top: 1%;
+}
+
+body { /* Estilização geral do body com fonte "Montserrat" sans-serif e cor de fundo #F5EBD9 */
+	font-family: 'Montserrat', sans-serif;
+    background-color: #F5EBD9;
+}
+
+.principal h1{ /* Estilização do h1 principal com texto alinhado no centro, tamanho de fonte de 28px e afastamento de margem superior de 2% */
+    text-align:center;
+    font-size: 28px;
+    margin-top: 2%;
+}
+
+.principal strong{ /* Estilização do strong principal com fonte em negrito */
+        font-weight: bold;
+}
+
+.principal p{ /* Estilização dos parágrafos de classe principal com afastamento de margem (superior=1%, direita=15%, inferior=1%, esquerda=15%), texto alinhado ao centro e fonte tamanho 18px*/
+  margin: 1% 15% 1% 15%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.produtos { /* Estilização dos produtos com largura 940px, margem lateral automática e espaçamento interno de 50px */
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li { /* Estilização dos ítens com display inline-block, texto alinhado ao centro, largura de 30%, margem de 1.5%, espaçamento interno de 30px e 20px, borda sólida e com arredondamento de 10px */
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.produtos li:hover { /* Estilização da lista nos produto com cor de borda #804A18 quando o mouse estiver em cima */
+	border-color: #804A18;
+}
+
+.produtos li:active { /* Estilização da lista nos produtos com cor de borda #000000 quando o mouse estiver fora */
+	border-color: #000000;	
+}
+
+.produtos li:hover h2 { /* Estilização para aumentar o tamanho da fonte quando o mouse estiver em cima */
+	font-size: 34px;
+}
+
+.produtos h2 { /* Estilização do h2 determinando a fonte em tamanho 30 e negrito */
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.fotoproduto{ /* Estilização da foto do produto deixando a borda arredondada e com espaçamento superior de margem de 1% */
+    border-radius: 5px;
+    margin-top: 1%;
+}
+
+.produto-preco{ /* Estilização do preço do produto com tamanho 22, em negrito e com margem superior de 10px */
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.produtos li:hover P { /* Estilização para aumentar o tamanho da fonte quando o mouse estiver em cima */
+	font-size: 28px;
+}
+
+.mapa{ /* Estilização da margem do mapa de localização da cafeteria */
+      margin: 2% 0 5% 22%;
+}
+
+.rodape{ /* Estilização do rodapé da página para ocupar 100% da página e ter um gradiente de background */
+    width:100%;
+    background: linear-gradient(to right, #8B4513 , #1F1D1C);
+}
+
+.rodape p{ /* Estilização do parágrafo no rodapé alinhando o texto no centro e cor de fonte #FFFFFF */
+          text-align: center;
+          color:#FFFFFF;
+}
+
+#fotorodape{ /* Estilização da foto no rodapé para ter espaçamento da margem esquerda de 47% */
+            margin-left: 47%;
+}
+
+.insta{ /* Estilização do ícone do instagram com espaçamento de margem superior e a esquerda de 1% e em baixo de 2% */
+       margin-top: 1%;
+       margin-left: 1%;
+       margin-bottom: 2%;
+}
+
+.face{ /* Estilização do ícone do facebook com espaçamento de margem superior de 1%, a esquerda de 46% e em baixo de 2% */
+      margin-top: 1%;
+      margin-left: 46%;
+      margin-bottom: 2%;
+
+}
